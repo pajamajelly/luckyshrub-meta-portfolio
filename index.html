@@ -25,15 +25,17 @@
 </head>
 
 
-<body class="container text-center">
+<body class="container-fulid text-center">
     <!--Logo-->
-    <header class="container-fulid">
+    <header class="bg-body-tertiary" data-bs-theme="dark">
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="logos/Asset 1@3x.png" alt="Lucky Shrub Logo Red Outline">
+        </a>
+    </header>
+    
         <!--Navbar with dropdown menu for mobile-->
         <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark"
         id="nav">
-            <a class="navbar-brand m-4" href="index.html">
-                <img src="logos/Asset 1@3x.png" alt="Lucky Shrub Logo Red Outline" width="50px" height="100px">
-            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,11 +64,10 @@
                 </ul>
             </div>
         </nav>
-    </header>
     <!--3 sections, 2 column grid for about section, 3 column grid-->
-    <main>
+    <main class="container m-4">
         <section id="about" class="row">
-            <article class="col-sm-6 mb-3 mb-sm-0">
+            <article>
                 <h1>Lucky Shrub</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni aut doloribus ipsa, quis non animi
                     sit ab! Ea, saepe. Illum ipsa numquam molestias possimus ipsam, sapiente ea omnis facere et.</p>
@@ -101,11 +102,11 @@
         </section>
     </main>
     <!--2 column grid for copyright, logo and contact information-->
-    <footer>
+    <footer class="bg-body-tertiary" data-bs-theme="dark">
         <div>
-            <img src="logos/Asset 1@3x.png" width="120px" height="200px" alt="Lucky Shrub Logo">
+            <img id="logo"
+            src="logos/Asset 1@3x.png" width="120px" height="200px" alt="Lucky Shrub Logo">
         </div>
-
         <div>
             <p>Copyright &copy; Lucky Shrub Logo</p>
         </div>
