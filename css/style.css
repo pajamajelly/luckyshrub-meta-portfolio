@@ -55,12 +55,12 @@ table {
 /* root variables */
 :root {
 /* colors */
- --primary-color: ;
- --secondary-color: ;
- --shadow-color: ;
- --alert: ;
- --confrim: ;
- --button: ;
+ --primary-forest: #447604;
+ --secondary-moss: #6CC551;
+ --shadow-granite: #47624F;
+ --alert-flagred: #C32F27;
+ --confrim-spring: #35FF69;
+ --button-ocean: #52AD9C;
 /* fonts */
 --heading-font: ;
 --body-font: ;
