@@ -2,7 +2,11 @@
 Portfolio Project for Meta Front-End Developer - HTML/CSS In Depth Course
 
 Programming Languages:
-HTML/CSS
-Javascript 
-npm install
-node.js
+    Front end dev
+        HTML/CSS
+        Javascript 
+        Bootstraps framework
+    Backend dev:
+        npm install
+        node.js
+        popperjs
