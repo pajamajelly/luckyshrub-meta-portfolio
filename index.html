@@ -64,15 +64,48 @@
                 </ul>
             </div>
         </nav>
-    <!--3 sections, 2 column grid for about section, 3 column grid-->
-    <main class="container m-4">
-        <section id="about" class="row">
+    <!--3 sections
+        2 column grid for about section
+        3 column grid for plant catalog section
+        2 column grid services section-->
+    <main class="container">
+        <section id="about">
             <article>
-                <h1>Lucky Shrub</h1>
+                <h1 class="display-1">Lucky Shrub</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni aut doloribus ipsa, quis non animi
                     sit ab! Ea, saepe. Illum ipsa numquam molestias possimus ipsam, sapiente ea omnis facere et.</p>
             </article>
+        </section>
 
+        <!--Gallery Slide Show-->
+        <div id="carouselExampleIndicators" class="carousel slide container">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="logos/Asset 3@3x.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="logos/Asset 3@3x.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="logos/Asset 3@3x.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <section id="catalog" class="row mt-4">
             <article class="col card" style="width:
             20em;">
                 <img class="card-img-top p-4" width="30px" height="400px" src="logos/Asset 3@3x.png" alt="Lucky Shrub Logo">
@@ -91,7 +124,7 @@
             </article>
         </section>
 
-        <section id="services">
+        <section id="gallery">
             <article>
 
             </article>
